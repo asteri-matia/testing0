@@ -20,3 +20,7 @@ let sumArr = (nums) => {
       numsT += i;
   return numsT;
 }
+
+// ES6 Oneliner #Jamie Weavis
+let jamArr = (nums) => nums.reduce((previousValue, currentValue) =>
+  parseInt(previousValue) + parseInt(currentValue), 0)

@@ -4,7 +4,8 @@
 
 let arrX = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-[0, 2], [0, 3]]
+[0, 2],
+[0, 3]]
 // console.table(arrX);
 
 let arrC = [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4]]
@@ -60,4 +61,17 @@ function multiE(z) {
   let arrP = [arr0, arr1, arr2, arr3, arr4, arr5, arr6, arr7, arr8,
     arr9, arr10]
   console.table(arrP)
+}
+
+// Jamie Weavis was here!
+function multiJ(x) {
+  let arrJ = [];
+  for (i = 0; i <= x; i++) {
+    let arrK = []
+    for (j = 0; j <= x; j++) {
+      arrK.push(i * j)
+    }
+    arrJ.push(arrK)
+  }
+  console.table(arrJ)
 }

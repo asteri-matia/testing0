@@ -2,7 +2,7 @@
 function vowels(str) {
   let re = new RegExp(/[aeiou]/gi);
   let count = str.match(re)
-  console.log(count)
+  console.log(count.length)
 
 }
 

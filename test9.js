@@ -13,3 +13,6 @@ let div10 = (num) => {
     return true;
   else return false;
 }
+
+// ES6 Jamie Weavis
+let di10 = (num) => num % 10 === 0 && num >= 0
