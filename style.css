@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+}
+
+div {
+  color: darkred
+}
+
+span>div {
+  break-before: always;
+}
+
+#one {
+  color: green;
+}
+
+#two {
+  color: green
+}
+
+#three {
+  color: green
+}
+
+#four {
+  color: green
+}
+
+#five {
+  color: green
+}
+
+#six {
+  color: green
+}
+
+#seven {
+  color: green
+}
+
+#eight {
+  color: green
+}
+
+#nine {
+  color: green
+}
+
+#ten {
+  color: green
+}
